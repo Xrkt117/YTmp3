@@ -1,0 +1,5 @@
+tools/
+test-tools/
+test-tone.mp3
+*.exe
+self-test.txt
