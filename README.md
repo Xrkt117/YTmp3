@@ -4,6 +4,8 @@ A small Windows app for turning a YouTube link into an MP3. Paste the link, clic
 
 Files go in **Music / YouTube MP3**. The **Open MP3 folder** button takes you there.
 
+The ready-to-run `YouTube-to-MP3.exe` is included through Git LFS. On GitHub, open the EXE and choose **Download raw file**. If cloning the repo, install Git LFS and run `git lfs pull` to fetch the actual EXE.
+
 ## Build
 
 Windows 10 or 11, 64-bit. Uses Windows Forms and the .NET Framework compiler included with Windows, so there's no Visual Studio project or NuGet setup.
@@ -17,7 +19,7 @@ In PowerShell, from this folder:
 
 Setup downloads the tools from their official GitHub releases. The first build takes a bit because it compresses them into one EXE. After that, run `YouTube-to-MP3.exe`. You can move that file wherever you want; the other files aren't needed to run it.
 
-The EXE is roughly 190 MB because it includes the downloader, audio converter, and JavaScript runtime. It's unsigned. Build outputs and downloaded tools aren't checked into this repo.
+The EXE is roughly 190 MB because it includes the downloader, audio converter, and JavaScript runtime. It's unsigned. The packaged EXE is tracked with Git LFS; downloaded tools and temporary build outputs aren't checked in.
 
 ## How it works
 
